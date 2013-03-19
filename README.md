@@ -1,0 +1,7 @@
+Regular Expression
+=================
+
+Regular Expressions in Python: 
+
+- Regularexp_email.py:
+    Takes an input of an URL gets the contents of it and uses Regular Expressions to check if the emails are valid or not.
