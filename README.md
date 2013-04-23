@@ -2,6 +2,11 @@ Experimentation
 =================
 
 Python: 
-Regular Expression in Python:
+Regular Expression:
 - Python/Regularexp_email.py:
     Takes an input of an URL gets the contents of it and uses Regular Expressions to check if the emails are valid or not. This input can be either URL or a string. 
+
+Go
+Web Twilio Support:
+- Go/twilio.go
+    Currently only sends a text, but in the future sending count of individuals.
