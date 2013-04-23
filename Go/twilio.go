@@ -7,12 +7,12 @@ import (
 )
 
 func twilio() {
-    accountSid := "ACd44100ff63d9f063b149272c1c9b8f64"
-    authToken := "372306737e389b83729d9d7f5c0fe1e2"
+    accountSid := ""
+    authToken := ""
     twilio := gotwilio.NewTwilioClient(accountSid, authToken)
 
     from := "+14423337001"
-    to := "+13474593725"
+    to := "+1"
     message := "user connected!"
     twilio.SendSMS(from, to, message, "", "")
 }
