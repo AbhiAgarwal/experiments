@@ -9,5 +9,4 @@ Regular Expression:
 Go
 Web Twilio Support:
 - Twilio Counter (Voting Type):
-    Currently receives texts messages using "reciever.php", and then sends the body content to "server_maps.go". This will then be add it to the map in "server_maps.go", and the more people who SMS this name the higher its value will get.
-- 
+    An easy way to use Go and Twilio to make a simple voting system. Soon this will be updated using concenurrency in Go.
