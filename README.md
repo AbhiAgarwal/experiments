@@ -9,4 +9,4 @@ Regular Expression:
 Go
 Web Twilio Support:
 - Twilio Counter (Voting Type):
-    An easy way to use Go and Twilio to make a simple voting system. Soon this will be updated using concenurrency in Go.
+    An easy way to use Go and Twilio to make a simple voting system. Soon this will be updated using concurrency in Go.
