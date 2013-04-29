@@ -11,7 +11,7 @@ func twilio() {
     authToken := ""
     twilio := gotwilio.NewTwilioClient(accountSid, authToken)
 
-    from := "+14423337001"
+    from := "+1"
     to := "+1"
     message := "user connected!"
     twilio.SendSMS(from, to, message, "", "")
