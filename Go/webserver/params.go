@@ -9,7 +9,7 @@ var page = `
 <html>
 <head><title>Multipart Test</title></head>
 <body>
-<form action="/process" method="GET">
+<form action="/process" method="POST">
 
 <label for="a"> Please write some text </label>
 <input id="a" type="text" name="a"/>
