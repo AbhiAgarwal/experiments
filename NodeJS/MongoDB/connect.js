@@ -1,6 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 
-MongoClient.connect('mongodb://abz:us9sa0s9da@dharma.mongohq.com:10009/Node', function(err, db) {
+MongoClient.connect('mongodb://', function(err, db) {
   	if(err) throw err;
   	console.log("Connected to Database");
 
