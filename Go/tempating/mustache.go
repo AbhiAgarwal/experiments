@@ -16,7 +16,7 @@ type Content struct {
 func home() string {
 	c := Content{
 		"Hello",
-		"My name is john",
+		"My name is abhi",
 	}
 	return mustache.RenderFile(
 		"template/layout.html", 
