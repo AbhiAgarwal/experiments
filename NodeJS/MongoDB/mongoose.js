@@ -1,4 +1,4 @@
-/*
+// Testing Connection
 // Starting Connection to the MongoDB Database
 var db = mongoose.connection;
 
@@ -9,7 +9,6 @@ db.on('error', console.error.bind(console, 'Connection Error:'));
 db.once('open', function(){
   console.log("Connection Established");
 });
-*/
 
 // Variable Decleration
 var mongoose = require('mongoose');
