@@ -36,15 +36,27 @@ console.log('Current directory: ' + process.cwd());
 
 	console.log('	Select which file or directory you want to see\n');
 
+	var stats = [];
+
 	function file(i){
 		var filename = files[i];
 
 		fs.stat(__dirname + '/' + filename, function(err, stat){
-			if(stat.isDirectory()){
-				console.log('	' + i + '	\033[36m' + filename + '/\033[39m');
-			}
-			else{
-				console.log('	' + i + '	\033[90m' + filename + '\033[39m');
+			stats[i] = stats;
+			if(stats[Number(data)].isDirectory()){
+				fs.readdir(__dirname + '/' + filename, function(err, files){
+					console.log('');
+					console.log('	('	+ files.length + ' files');
+					files.forEach(function(file){
+						console.log('	- 	' + file);
+					});
+					console.log('');
+				});
+			} else {
+				fs.readFile(__dirname + '/' + filename, 'utf8', function(err, data){
+					console.log('');
+					console.log('\033[90m' + data.replace(/(.*)/g,	'	$1') + '033[39m');
+				});
 			}
 
 			if(++i == files.length){
@@ -53,6 +65,7 @@ console.log('Current directory: ' + process.cwd());
 			else{
 				file(i);
 			}
+
 		});
 	}
 
