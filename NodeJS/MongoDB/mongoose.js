@@ -13,7 +13,7 @@ db.once('open', function(){
 
 // Variable Decleration
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://node:wo0esa@widmore.mongohq.com:10010/NodeJS');
+mongoose.connect('mongodb://');
 
 // Schema Decleration
 var tvshowSchema = mongoose.Schema({
@@ -32,7 +32,6 @@ tvShow.find(function(err, shows){
 	mongoose.connection.close();
 });
 
-/*
 // Declaring a new TV Show
 var BigBangTheory = new tvShow({ 
 	name: 'The Big Bang Theory',
@@ -45,4 +44,3 @@ BigBangTheory.save(function (err, bigbang) {
   if (err) console.log(err);
   console.log("Done!");
 });
-*/
