@@ -40,7 +40,6 @@ console.log('Current directory: ' + process.cwd());
 
 	function file(i){
 		var filename = files[i];
-
 		fs.stat(__dirname + '/' + filename, function(err, stat){
 			stats[i] = stats;
 			if(stats[Number(data)].isDirectory()){
