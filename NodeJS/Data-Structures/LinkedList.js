@@ -7,7 +7,7 @@ function LinkedList() {
 // Adding a node to the Linked List
 LinkedList.prototype.add = function(value){
 	
-	// The current_node Node
+	// The current Node
 	var current = this.head;
 	var repeat = false;
 
