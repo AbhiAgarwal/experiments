@@ -1,6 +1,8 @@
 NodeJS
 ===
 
+Learning about Node.JS through experimentation and tutorials. 
+
 Data Structures
 ===
 
