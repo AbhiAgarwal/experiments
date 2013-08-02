@@ -17,6 +17,13 @@ File explorer designed in Node.JS - for the current & other directory.
 
     index.js
 
+Chat
+===
+
+A simple TCP Chat Server. Allows individuals to chat through a server and telnet connection.
+
+    TCPServer5.js
+
 Math
 ===
 
