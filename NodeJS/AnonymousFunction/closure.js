@@ -1,3 +1,5 @@
+// Simple example of closures
+
 var displayClosure = function(){
 	var count = 0;
 	return function() {
