@@ -6,7 +6,6 @@
 */
 
 var sum = 0;
-
 var Sum = function() {
 	// Traverse from 1-1000 to find the sum of numbers 
 	// divisible by 3 or 5.
