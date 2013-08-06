@@ -126,14 +126,9 @@ var greatestProductUp = function(){
 		}
 	}
 };
-
 greatestProductDiagonally();
-console.log(largest);
 greatestProductRight();
-console.log(largest);
 greatestProductLeft();
-console.log(largest);
 greatestProductDown();
-console.log(largest);
 greatestProductUp();
 console.log(largest);
