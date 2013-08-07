@@ -13,6 +13,15 @@ Web Twilio Support:
 - Twilio SMS Counter (Voting Type):
     - An easy way to use Go and Twilio to make a simple voting system. Soon this will be updated using concurrency in Go.
 
+Node.JS:
+---
+Experimentation with:
+- Data Structures
+- File Explorer
+- MongoDB
+- NodeJS Modules
+
+
 Project Euler:
 ---
-Programming solutions to the ProjectEuler.net.
+Programming solutions to the ProjectEuler.net. 
