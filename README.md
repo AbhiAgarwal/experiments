@@ -16,8 +16,8 @@ Web Twilio Support:
 Node.JS:
 ---
 Experimentation with:
-- Data Structures
-- File Explorer
+- Data Structures (Linked List, etc.)
+- File Explorer (Through the Terminal)
 - MongoDB
 - NodeJS Modules
 - Projects with Express
