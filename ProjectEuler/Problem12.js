@@ -1,6 +1,7 @@
 /*
 * What is the value of the first triangle 
 * number to have over five hundred divisors?
+= 76,576,500
 */
 
 var firstNumber = 0,

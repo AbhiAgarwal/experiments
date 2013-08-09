@@ -1,7 +1,8 @@
 /*
 * What is the smallest positive number that is 
 * evenly divisible by all of the numbers from 1 to 20?
-* */
+= 232,792,560
+*/
 
 /*
 The concept of this answer is the fact that it won't set it to true again,

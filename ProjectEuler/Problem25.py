@@ -1,4 +1,5 @@
 # What is the first term in the Fibonacci sequence to contain 1000 digits?
+# = 4,782
 
 f1 = 1 # first term
 f2 = 1 # second term

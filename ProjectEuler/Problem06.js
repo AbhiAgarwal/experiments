@@ -1,7 +1,9 @@
 /*
 * Find the difference between the sum of the squares of the 
 * first one hundred natural numbers and the square of the sum.
+= 25,164,150
 */
+
 var squaredAdd = 0,
 squaredTotal = 0;
 
