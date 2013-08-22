@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#ct').click(function(){
+			alert('Clicked Button!');
+		});
+		$('p').mouseover(function(){
+			alert('Trigger!');
+		});
+	});
+	</script>
+</head>
+<body>
+	<button id="ct">Hello</button>
+	<p>Mouseover</p>
+</body>
+</html>
