@@ -1,11 +1,11 @@
-#include <stdio.h>
-
 // Given an array containing all numbers from 1 to N with the 
 // exception of one print the missing number to the standard output.
 // Example input:
 // array: 5 4 1 2
 // Example output:
 // 3
+
+#include <stdio.h>
 
 void find_missing_number(int *v, int v_length) {
     int i, totalReal, x, totalExpected;

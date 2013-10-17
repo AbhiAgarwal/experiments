@@ -1,3 +1,10 @@
+// Write to the standard output the greatest product of 2 numbers to be divisible 
+// by 3 from a given array of pozitive integers.
+// Example input:
+// 6, 8, 8, 7, 2, 5
+// Example output:
+// 48
+
 #include <stdio.h>
 
 void max_prod(int *v, int v_length) {
