@@ -10,4 +10,4 @@ Running these projects
 ## C ##
 
 `gcc {FILENAME}.c && ./a.out`
-`rm ./a.out`
+then `rm ./a.out`
