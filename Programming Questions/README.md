@@ -10,4 +10,8 @@ Running these projects
 ## C ##
 
 `gcc {FILENAME}.c && ./a.out`
-then `rm ./a.out`
+then `rm ./a.out
+
+## Node.JS ##
+
+`node {FILENAME.js}`
