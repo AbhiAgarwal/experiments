@@ -1,0 +1,11 @@
+global set of verticies, V
+global set of children[v] of verticies V
+global Arrays pre, post
+
+function DFS(;;v);
+	append v.name to Array pre
+	foreach w in children[v] do
+		DFS(w)
+	endfor
+	append v.name to Array post
+end_DFS;

@@ -1,0 +1,10 @@
+global set of verticies 
+global set of children[v] of verticies
+
+function product(;;v);
+	v.product <- v.dat
+	foreach w in children[v] do
+		v.product <- v.product * product(w)
+	endfor
+	return (v.product)
+end_product;

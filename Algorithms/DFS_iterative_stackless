@@ -1,0 +1,17 @@
+global set of verticies
+
+procedure DFS(;;w);
+	vvisit <- w;
+	while vvist != Nil do
+		if vvist.child != Nil then vvist <- vvist.child
+		elseif vvist.next != Nil then vvist <- vvist.next
+		else
+			previous <- vvist.back
+			while previous.next == vvist OR (previous.next == Nil AND previous =! w) do
+				vvist <- previous
+				previous <- vvist.back
+			endwhile
+			vvist <- previous.next
+		endif
+	endwhile
+end_DFS

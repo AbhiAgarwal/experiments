@@ -1,0 +1,10 @@
+global pid <- 0
+global the set of verticies V; the array of childlists children[v] for each v in V;
+
+function preDFS(;;v);
+	v.pre <- pid
+	pid <- pid + 1
+	foreach vertex v in children[v]
+		preDFS(v)
+	endfor
+end_preDFS();

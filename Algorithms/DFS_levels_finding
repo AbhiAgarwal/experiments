@@ -1,0 +1,9 @@
+global set of verticies
+global array of the children[v] of set of verticies
+
+function levelA(level;;v)
+	v.level <- level
+	foreach vertex w in children[v] do
+		levelA(level + 1, w)
+	endfor
+end_levelA

@@ -1,0 +1,13 @@
+# Binary Tree Structure to get an array of all
+# Preorder, Inorder & Postorder structures.
+
+global the set of verticies
+global Arrays called pre, in, post
+
+function DFS(v;;)
+	append v.name to Array pre
+	if DFS(v.left) =! Nil then DFS(v.left) endif;
+	append v.name to Array in
+	if DFS(v.right) =! Nil then DFS(v.right) endif
+	append v.name to Array post
+end_DFS();

@@ -1,0 +1,10 @@
+global set of verticies
+global array of children[v] of set of verticies
+
+function depth(;;v);
+	v.depth <- 0
+	foreach w in children[v] do
+		v.depth <- max(v.depth, depth(w) + 1) # add one for depth of current plus below
+	endfor
+	return (v.depth)
+end_depth

@@ -1,0 +1,8 @@
+global set of verticies
+global Array in
+
+function DFS(;;v);
+	if v.left =! Nil then DFS(v.left) endif;
+	append v.name into Array in
+	if v.right =! Nil then DFS(v.right) endif;
+end_DFS()

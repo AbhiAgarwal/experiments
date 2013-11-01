@@ -1,0 +1,30 @@
+global maximum size of heap Hsize
+global heap H[1...Hsize]
+global count
+
+function deleteMin();
+	if count == 0 then return Error ('Heap is empty')
+	else
+		returnValue <- H[1]
+		H[1] <- H[count]
+		count <- count - 1
+		newItemIndex <- 1
+		repeat
+			childIndex <- newItemIndex * 2 + 1
+			if childIndex <= count # has 2 children
+				if H[childIndex - 1] < H[childIndex] then
+					childIndex = childIndex - 1
+				endif
+			else if childIndex - 1 > count then return(returnval) # no children
+			else # 1 child
+				childIndex = count
+			endif
+			if H[1] < H[childIndex] then
+				Swap(H[newItemIndex], H[childIndex])
+				newItemIndex <- childIndex # Start out from there next time
+			else
+				return returnValue
+			endif
+		forever;
+	endif
+end_deleteMin

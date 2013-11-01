@@ -1,0 +1,14 @@
+global set of Verticies v
+global array of children[v] of verticies v
+global lev <- 0
+
+function levelB(;;v);
+	v.level <- lev
+	lev <- lev + 1
+	foreach vertex w in children[v] do
+		levelB(w)
+	endfor
+
+	lev <- lev - 1 # as you're coming back up this will clean up after itself
+
+end_levelB
