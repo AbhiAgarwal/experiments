@@ -40,4 +40,4 @@ def radixSort(a_list, base):
     return new_list
 
 if __name__ == '__main__':
-    result = radixSort([88, 12, 78, 87, 89, 95, 16, 82], 10)
+    result = radixSort([88, 12, 78, 87, 89, 95, 16, 82, 100], 10)
