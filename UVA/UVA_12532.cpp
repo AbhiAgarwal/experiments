@@ -1,3 +1,7 @@
+/*
+- Interval Product
+*/
+
 // How can one forget stdio.h for any reason..
 #include <iostream>
 #include <cstring>
