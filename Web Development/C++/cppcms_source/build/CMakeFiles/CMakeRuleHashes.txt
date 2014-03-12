@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+aff807a8642c36c5e310a0c7cc9055a4 skin1.cpp
+1174e356a377a377eddc3bc710a3956f skin2.cpp
+f3a87271d10343bbb7482946f682c87a skin3.cpp
+a0ae6253573da5bb029bf4537aaec497 tc_skin.cpp
+652816154d0e16c2cc95f20f2b5aed13 tc_skin_a.cpp
+5bf053ee1893d87ffd3e36961e218519 tc_skin_b.cpp

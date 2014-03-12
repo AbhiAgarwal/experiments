@@ -17,20 +17,6 @@ int party = 0;
 int totalNumberOfVotes, totalSumForReturn = 0; // Primary viewing
 int membersOfTheParties[30], partyNumber[30]; // just 20+10 incase
 
-/*
-f(x) = {
-    ... processing stuff ...
-    for input = i to x
-        sum += voteindexbla[i]
-        f(i)
-        sum -= voteindexbla[i]
-}
-processing stuff = {
-    if sum <= nuMvotes AND rec > votes = +party
-}
-
-*/
-
 void understand(int currentParty, int inputValue, int numberOfMembers){
     int currentReccomendation = totalSumForReturn + membersOfTheParties[currentParty];
     int i = 0;
@@ -54,7 +40,6 @@ void understand(int currentParty, int inputValue, int numberOfMembers){
             // Post Processing - Seigel method.
             totalSumForReturn -= membersOfTheParties[i];
         }
-
     }
 }
 
